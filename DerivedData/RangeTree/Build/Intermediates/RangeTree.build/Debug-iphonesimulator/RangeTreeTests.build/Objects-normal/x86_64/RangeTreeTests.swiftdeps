@@ -1,0 +1,307 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RangeTreeTests"
+provides-nominal:
+- "C14RangeTreeTests14RangeTreeTests"
+provides-member:
+- ["C14RangeTreeTests14RangeTreeTests", ""]
+provides-dynamic-lookup:
+- "tearDown"
+- "setUp"
+- "testTreeConstructionSpeed"
+- "testQuerySpeed"
+depends-top-level:
+- !private "||"
+- !private "BooleanLiteralType"
+- "XCTestCase"
+- "RangeTreeTests"
+- !private "..."
+- !private "TestObject"
+- !private "Bool"
+- !private "Set"
+- !private "ClosedInterval"
+- !private "RangeTree"
+- !private "!"
+- !private "XCTAssert"
+- !private "StringLiteralType"
+- !private "CDouble"
+- !private "&&"
+depends-member:
+- !private ["PSs9AnyObject", "RangeTree"]
+- !private ["PSs9AnyObject", "TestObject"]
+- !private ["PSs9AnyObject", "XCTAssert"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "measureBlock"]
+- !private ["PSs9AnyObject", "objectsInXInterval"]
+- !private ["PSs9AnyObject", "objectsWithCount"]
+- ["PSs9AnyObject", "setUp"]
+- ["PSs9AnyObject", "subset"]
+- ["PSs9AnyObject", "tearDown"]
+- ["PSs9AnyObject", "testQuerySpeed"]
+- ["PSs9AnyObject", "testTreeConstructionSpeed"]
+- !private ["PSs9AnyObject", "x"]
+- !private ["PSs9AnyObject", "y"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "contains"]
+- !private ["PSs23ArrayLiteralConvertible", "subtract"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "RangeTree"]
+- !private ["PSs11CVarArgType", "TestObject"]
+- !private ["PSs11CVarArgType", "XCTAssert"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "measureBlock"]
+- !private ["PSs11CVarArgType", "objectsWithCount"]
+- ["PSs11CVarArgType", "setUp"]
+- ["PSs11CVarArgType", "subset"]
+- ["PSs11CVarArgType", "tearDown"]
+- ["PSs11CVarArgType", "testQuerySpeed"]
+- ["PSs11CVarArgType", "testTreeConstructionSpeed"]
+- !private ["PSs11CVarArgType", "x"]
+- !private ["PSs11CVarArgType", "y"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs14ClosedInterval", "contains"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "contains"]
+- !private ["PSs14CollectionType", "subtract"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "contains"]
+- !private ["PSs28CustomDebugStringConvertible", "subtract"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "RangeTree"]
+- !private ["PSs23CustomStringConvertible", "TestObject"]
+- !private ["PSs23CustomStringConvertible", "XCTAssert"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "contains"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "measureBlock"]
+- !private ["PSs23CustomStringConvertible", "objectsWithCount"]
+- ["PSs23CustomStringConvertible", "setUp"]
+- ["PSs23CustomStringConvertible", "subset"]
+- !private ["PSs23CustomStringConvertible", "subtract"]
+- ["PSs23CustomStringConvertible", "tearDown"]
+- ["PSs23CustomStringConvertible", "testQuerySpeed"]
+- ["PSs23CustomStringConvertible", "testTreeConstructionSpeed"]
+- !private ["PSs23CustomStringConvertible", "x"]
+- !private ["PSs23CustomStringConvertible", "y"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "Generator"]
+- !private ["PSs9Equatable", "RangeTree"]
+- !private ["PSs9Equatable", "TestObject"]
+- !private ["PSs9Equatable", "XCTAssert"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "contains"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "measureBlock"]
+- !private ["PSs9Equatable", "objectsWithCount"]
+- ["PSs9Equatable", "setUp"]
+- ["PSs9Equatable", "subset"]
+- !private ["PSs9Equatable", "subtract"]
+- ["PSs9Equatable", "tearDown"]
+- ["PSs9Equatable", "testQuerySpeed"]
+- ["PSs9Equatable", "testTreeConstructionSpeed"]
+- !private ["PSs9Equatable", "x"]
+- !private ["PSs9Equatable", "y"]
+- ["PSs9Equatable", ""]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "Generator"]
+- !private ["PSs8Hashable", "RangeTree"]
+- !private ["PSs8Hashable", "TestObject"]
+- !private ["PSs8Hashable", "XCTAssert"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "contains"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "measureBlock"]
+- !private ["PSs8Hashable", "objectsWithCount"]
+- ["PSs8Hashable", "setUp"]
+- ["PSs8Hashable", "subset"]
+- !private ["PSs8Hashable", "subtract"]
+- ["PSs8Hashable", "tearDown"]
+- ["PSs8Hashable", "testQuerySpeed"]
+- ["PSs8Hashable", "testTreeConstructionSpeed"]
+- !private ["PSs8Hashable", "x"]
+- !private ["PSs8Hashable", "y"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "contains"]
+- !private ["PSs9Indexable", "subtract"]
+- !private ["PSs12IntervalType", "contains"]
+- !private ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CDouble"]
+- !private ["CSo8NSObject", "ClosedInterval"]
+- !private ["CSo8NSObject", "RangeTree"]
+- !private ["CSo8NSObject", "Set"]
+- !private ["CSo8NSObject", "TestObject"]
+- !private ["CSo8NSObject", "XCTAssert"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "measureBlock"]
+- !private ["CSo8NSObject", "objectsWithCount"]
+- ["CSo8NSObject", "setUp"]
+- ["CSo8NSObject", "subset"]
+- ["CSo8NSObject", "tearDown"]
+- ["CSo8NSObject", "testQuerySpeed"]
+- ["CSo8NSObject", "testTreeConstructionSpeed"]
+- !private ["CSo8NSObject", "x"]
+- !private ["CSo8NSObject", "y"]
+- !private ["PSo16NSObjectProtocol", "RangeTree"]
+- !private ["PSo16NSObjectProtocol", "TestObject"]
+- !private ["PSo16NSObjectProtocol", "XCTAssert"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "measureBlock"]
+- !private ["PSo16NSObjectProtocol", "objectsWithCount"]
+- ["PSo16NSObjectProtocol", "setUp"]
+- ["PSo16NSObjectProtocol", "subset"]
+- ["PSo16NSObjectProtocol", "tearDown"]
+- ["PSo16NSObjectProtocol", "testQuerySpeed"]
+- ["PSo16NSObjectProtocol", "testTreeConstructionSpeed"]
+- !private ["PSo16NSObjectProtocol", "x"]
+- !private ["PSo16NSObjectProtocol", "y"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["C9RangeTree9RangeTree", "init"]
+- !private ["C9RangeTree9RangeTree", "objectsInXInterval"]
+- !private ["C14RangeTreeTests14RangeTreeTests", "Bool"]
+- !private ["C14RangeTreeTests14RangeTreeTests", "CDouble"]
+- !private ["C14RangeTreeTests14RangeTreeTests", "ClosedInterval"]
+- !private ["C14RangeTreeTests14RangeTreeTests", "RangeTree"]
+- !private ["C14RangeTreeTests14RangeTreeTests", "Set"]
+- !private ["C14RangeTreeTests14RangeTreeTests", "TestObject"]
+- !private ["C14RangeTreeTests14RangeTreeTests", "XCTAssert"]
+- ["C14RangeTreeTests14RangeTreeTests", "deinit"]
+- ["C14RangeTreeTests14RangeTreeTests", "init"]
+- !private ["C14RangeTreeTests14RangeTreeTests", "measureBlock"]
+- ["C14RangeTreeTests14RangeTreeTests", "setUp"]
+- !private ["C14RangeTreeTests14RangeTreeTests", "subset"]
+- ["C14RangeTreeTests14RangeTreeTests", "tearDown"]
+- ["C14RangeTreeTests14RangeTreeTests", "testQuerySpeed"]
+- ["C14RangeTreeTests14RangeTreeTests", "testTreeConstructionSpeed"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "contains"]
+- !private ["PSs12SequenceType", "subtract"]
+- !private ["VSs3Set", "Generator"]
+- !private ["VSs3Set", "contains"]
+- !private ["VSs3Set", "subtract"]
+- !private ["VSs12SetGenerator", "Element"]
+- ["C14RangeTreeTests10TestObject", "deinit"]
+- !private ["C14RangeTreeTests10TestObject", "objectsWithCount"]
+- !private ["C14RangeTreeTests10TestObject", "x"]
+- !private ["C14RangeTreeTests10TestObject", "y"]
+- !private ["P9RangeTree14TwoDimensional", "objectsWithCount"]
+- !private ["P9RangeTree14TwoDimensional", "x"]
+- !private ["P9RangeTree14TwoDimensional", "y"]
+- !private ["CSo6XCTest", "Bool"]
+- !private ["CSo6XCTest", "CDouble"]
+- !private ["CSo6XCTest", "ClosedInterval"]
+- !private ["CSo6XCTest", "RangeTree"]
+- !private ["CSo6XCTest", "Set"]
+- !private ["CSo6XCTest", "TestObject"]
+- !private ["CSo6XCTest", "XCTAssert"]
+- ["CSo6XCTest", "init"]
+- !private ["CSo6XCTest", "measureBlock"]
+- ["CSo6XCTest", "setUp"]
+- ["CSo6XCTest", "subset"]
+- ["CSo6XCTest", "tearDown"]
+- ["CSo6XCTest", "testQuerySpeed"]
+- ["CSo6XCTest", "testTreeConstructionSpeed"]
+- !private ["CSo10XCTestCase", "Bool"]
+- !private ["CSo10XCTestCase", "CDouble"]
+- !private ["CSo10XCTestCase", "ClosedInterval"]
+- !private ["CSo10XCTestCase", "RangeTree"]
+- !private ["CSo10XCTestCase", "Set"]
+- !private ["CSo10XCTestCase", "TestObject"]
+- !private ["CSo10XCTestCase", "XCTAssert"]
+- ["CSo10XCTestCase", "init"]
+- !private ["CSo10XCTestCase", "measureBlock"]
+- ["CSo10XCTestCase", "setUp"]
+- ["CSo10XCTestCase", "subset"]
+- ["CSo10XCTestCase", "tearDown"]
+- ["CSo10XCTestCase", "testQuerySpeed"]
+- ["CSo10XCTestCase", "testTreeConstructionSpeed"]
+- ["CSo10XCTestCase", ""]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "contains"]
+- !private ["PSs21_ObjectiveCBridgeable", "subtract"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "contains"]
+- !private ["PSs12_Reflectable", "subtract"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "VSs14ClosedInterval"
+- !private "PSs14CollectionType"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "PSs12IntervalType"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "C9RangeTree9RangeTree"
+- "C14RangeTreeTests14RangeTreeTests"
+- !private "PSs12SequenceType"
+- !private "VSs3Set"
+- !private "VSs12SetGenerator"
+- "C14RangeTreeTests10TestObject"
+- !private "P9RangeTree14TwoDimensional"
+- "CSo6XCTest"
+- "CSo10XCTestCase"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/john/Projects/RangeTree/CRangeTree/module.map"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/john/Projects/RangeTree/DerivedData/RangeTree/Build/Products/Debug-iphonesimulator/RangeTree.framework/Modules/RangeTree.swiftmodule/x86_64.swiftmodule"
+- "/Users/john/Projects/RangeTree/DerivedData/RangeTree/Build/Products/Debug-iphonesimulator/RangeTree.framework/Headers/RangeTree-Swift.h"
+- "/Users/john/Projects/RangeTree/RangeTree/RangeTree.h"
+- "/Users/john/Projects/RangeTree/DerivedData/RangeTree/Build/Intermediates/RangeTree.build/Debug-iphonesimulator/RangeTree.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/john/Projects/RangeTree/CRangeTree/XYRange.h"
+- "/Users/john/Projects/RangeTree/CRangeTree/XYNode.h"
+- "/Users/john/Projects/RangeTree/CRangeTree/XYTree.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUICoordinate.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIDevice.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypeQueryProvider.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementAttributes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElement.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIApplication.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservationCenter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObserver.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestLog.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCaseRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase+AsynchronousTesting.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertionsImpl.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertions.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCAbstractTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+interface-hash: "d1d6f80481bac97ff1eb74e8c7cd0ade"

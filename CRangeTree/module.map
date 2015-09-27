@@ -1,0 +1,4 @@
+module XYTree {
+    header "XYTree.h"
+    export *
+  }

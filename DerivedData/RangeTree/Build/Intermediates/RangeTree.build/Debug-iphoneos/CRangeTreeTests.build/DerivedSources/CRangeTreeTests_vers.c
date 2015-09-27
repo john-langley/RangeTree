@@ -1,0 +1,1 @@
+ const unsigned char CRangeTreeTestsVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:CRangeTreeTests  PROJECT:RangeTree-1" "\n"; const double CRangeTreeTestsVersionNumber __attribute__ ((used)) = (double)1.;

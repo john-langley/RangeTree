@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/john/Projects/RangeTree/DerivedData/RangeTree/Build/Products/Debug-iphonesimulator/RangeTree.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/john/Projects/RangeTree/DerivedData/RangeTree/Build/Intermediates/RangeTree.build/Debug-iphonesimulator/RangeTree.build/unextended-module.modulemap',
+    }]
+  }]
+}

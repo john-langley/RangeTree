@@ -1,0 +1,10 @@
+framework module RangeTree {
+  umbrella header "RangeTree.h"
+
+  export *
+  module * { export * }
+}
+
+module RangeTree.__Swift {
+    exclude header "RangeTree-Swift.h"
+}

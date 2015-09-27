@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "f6db2633ff14788fed4741eaca5218e6"
+build_time: [496629965, 26290000]
+inputs: 
+	"/Users/john/Projects/RangeTree/RangeTree/RangeTree.swift": [496629231, 0]
